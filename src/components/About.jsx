@@ -23,6 +23,7 @@ const About = () => {
     "Flask",
     "Bootstrap",
     "Google Cloud Platform",
+    "AWS",
     "HTML5",
     "CSS3",
   ];

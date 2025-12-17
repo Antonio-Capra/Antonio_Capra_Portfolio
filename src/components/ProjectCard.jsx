@@ -10,16 +10,24 @@ const ProjectCard = ({ project, index = 0 }) => {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-    <motion.article 
+    <motion.article
       ref={ref}
-      className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-      initial={{ opacity: 0, x: -100 }}
-      animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
-      transition={{ 
-        duration: 0.6, 
-        delay: index * 0.15,
-        ease: "easeOut"
+      className="group bg-white rounded-xl overflow-hidden border border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-300"
+      style={{ perspective: 1000 }}
+      initial={{ opacity: 0, x: -60, scale: 0.92 }}
+      animate={isInView ? { opacity: 1, x: 0, scale: 1 } : { opacity: 0, x: -60, scale: 0.92 }}
+      transition={{
+        duration: 0.7,
+        delay: index * 0.13,
+        ease: [0.22, 1, 0.36, 1]
       }}
+      whileHover={{
+        rotateY: 7,
+        rotateX: -3,
+        scale: 1.03,
+        boxShadow: '0 8px 32px 0 rgba(16, 185, 129, 0.15)'
+      }}
+      whileTap={{ scale: 0.98 }}
     >
       <div className="relative h-48 sm:h-56 bg-gray-100 overflow-hidden">
         {/* In Development Badge */}

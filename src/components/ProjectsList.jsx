@@ -12,7 +12,7 @@ const ProjectsList = () => {
       title: t('project.envatex.title'),
       excerpt: t('project.envatex.description'),
       tags: ['React', 'JavaScript', 'Python', "Flask", "sendGrid", "Tailwind CSS", "JWT"],
-      imageUrl: '/2.png',
+      imageUrl: '2.png',
       projectLink: 'https://envatex-web-frontend.onrender.com',
       inDevelopment: true, // Mark as project in development
     },
@@ -21,7 +21,7 @@ const ProjectsList = () => {
       title: t('project.antoja.title'),
       excerpt: t('project.antoja.description'),
       tags: ['Next.js', 'JavaScript', 'PostgreSQL', 'SqlAlchemy', 'Flask', "Python", "Bootstrap", "CSS3", "JWT"],
-      imageUrl: '/LogoCeleste.png',
+      imageUrl: 'LogoCeleste.png',
       projectLink: 'https://github.com/Antonio-Capra/Antoja-Proyecto-Final',
     },
     {
@@ -29,7 +29,7 @@ const ProjectsList = () => {
       title: t('project.starwars.title'),
       excerpt: t('project.starwars.description'),
       tags: ['React', 'Fetch', 'Bootstrap', 'HTML5', 'CSS3'],
-      imageUrl: '/starwars.png',
+      imageUrl: 'starwars.png',
       projectLink: 'https://antonio-capra.github.io/ToninoJoya_SWAPIBlog/',
     },
   ];
