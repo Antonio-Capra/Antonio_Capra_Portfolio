@@ -1,43 +1,10 @@
-# Modern Personal Portfolio
+# Antonio Capra | Portfolio Personal
 
-Minimalist and professional personal portfolio built with React and Tailwind CSS. Mobile-First design with subtle animations and CMS-ready structure.
+Este repositorio contiene el código fuente de mi portafolio personal desarrollado con React, Tailwind CSS y Motion.
 
-## 🚀 Features
+Aquí muestro mis proyectos, habilidades y experiencia como desarrollador web. El sitio es completamente responsivo, moderno, con animaciones y soporte multilenguaje (Español/Inglés).
 
-- **Minimalist Design**: Clean aesthetics driven by whitespace
-- **Responsive**: Mobile-First approach with Tailwind CSS
-- **Subtle Animations**: Optimized transitions and fade-in effects
-- **SEO Optimized**: Semantic HTML and meta tags
-- **CMS Ready**: Structure prepared for Headless CMS integration
-- **High Performance**: Optimized components and clean code
-
-## 📦 Technologies
-
-- React 18
-- Tailwind CSS 3
-- Vite
-- JavaScript (ES6+)
-
-## 🛠️ Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📝 Customization
-
-### 1. Personal Branding
-Update your personal information in the respective component files located in `src/components/`:
+Puedes ver el portafolio en vivo en: [GitHub Pages](https://antonio-capra.github.io/Antonio_Capra_Portfolio/)
 
 **Header Component** (`src/components/Header.jsx`)
 - Update the logo/name text (currently "YourName")
