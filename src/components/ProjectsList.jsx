@@ -20,9 +20,9 @@ const ProjectsList = () => {
       id: 2,
       title: t('project.antoja.title'),
       excerpt: t('project.antoja.description'),
-      tags: ['Next.js', 'JavaScript', 'PostgreSQL', 'SqlAlchemy', 'Flask', "Python", "Bootstrap", "CSS3", "JWT"],
-      imageUrl: 'LogoCeleste.png',
-      projectLink: 'https://github.com/Antonio-Capra/Antoja-Proyecto-Final',
+      tags: ['Next.js', 'JavaScript',  "CSS3", "Tailwind CSS", "Vercel"],
+      imageUrl: 'Ttypo.png',
+      projectLink: 'https://www.trypo.cl/',
     },
     {
       id: 3,

@@ -35,8 +35,8 @@ const resources = {
       "project.envatex.title": "Envatex",
       "project.envatex.description": "Business quotation platform where customers request quotes for products. Features an admin dashboard to manage inquiries, create and organize products, and respond to customer requests via automated email notifications.",
       
-      "project.antoja.title": "Antoja App",
-      "project.antoja.description": "Project developed in collaboration with colleagues from the academy, in which we created a management application for a restaurant, featuring both administrator and user roles.",
+      "project.antoja.title": "Trypo App",
+      "project.antoja.description": "Project developed with professional team, where I created some components UI/UX for trypo with tailwindcss and nextjs.",
       
       "project.starwars.title": "API Star Wars CMS",
       "project.starwars.description": "This is an academic project developed as a functional Star Wars blog. It demonstrates API integration skills by effectively consuming and displaying data from the Star Wars API (SWAPI).",
@@ -77,8 +77,8 @@ const resources = {
       "project.envatex.title": "Envatex",
       "project.envatex.description": "Plataforma de cotización empresarial donde los clientes solicitan presupuestos de productos. Incluye un panel de administración para gestionar consultas, crear y organizar productos, y responder a solicitudes de clientes mediante notificaciones automáticas por correo.",
       
-      "project.antoja.title": "Antoja App",
-      "project.antoja.description": "Proyecto desarrollado en colaboración con compañeros de la academia, en el que creamos una aplicación de gestión para un restaurante, con roles de administrador y usuario.",
+      "project.antoja.title": "Trypo App",
+      "project.antoja.description": "Proyecto desarrollado con equipo profesional, donde creé algunos componentes UI/UX para trypo con tailwindcss y nextjs.",
       
       "project.starwars.title": "API Star Wars CMS",
       "project.starwars.description": "Este es un proyecto académico desarrollado como un blog funcional de Star Wars. Demuestra habilidades de integración de API al consumir y mostrar efectivamente datos de la API de Star Wars (SWAPI).",
